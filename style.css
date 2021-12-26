@@ -49,3 +49,28 @@ body {
     font-weight: bold;
     font-family: 'Gowun Dodum', sans-serif;
 }
+#todoInput{
+    width: 200px;
+    height: 40px;
+    background: hsl(240, 87%, 15%);
+    border: none;
+    font-size: 12pt;
+    float: left;
+    color: navy;
+    padding-left: 40px;
+    padding-right: 15px;
+    -webkit-border-radius: 5px;/* sapari, chrome호환*/
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+#todoInput::placeholder{
+    color: gray;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+#todoInput:hover, #todoInput:active, #todoInput:focus{
+    background-color: rgb(210, 241, 255);
+    outline: none;
+}

@@ -25,6 +25,7 @@ function writeTodo(todo) {
     const btn = document.createElement("button");
     li.appendChild(span);
     li.appendChild(btn);
+    btn.style = "margin-left: 8px";
     li.className = todo.id;
     span.innerText = todo.value;
     btn.innerText = "👌"
