@@ -1,0 +1,51 @@
+.hiding {
+    display: none;
+}
+body {
+    height: 100vh;
+    color: navy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#clockDate{
+    font-size: 25px;
+    font-weight: bold;
+}
+#clockHour{
+    font-size: 80px;
+    font-weight: bold;
+}
+#weather{
+    margin: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+#username{
+    margin: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+#todoUl {
+    height: 150px;
+    padding-left: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 18px;
+}
+#todoUl li{
+    margin: 4px;
+    list-style-type: none;
+}
+#quotes{
+    margin: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gowun Dodum', sans-serif;
+}
