@@ -9,7 +9,7 @@ const quotes = [{"quote":"수동이 아니라 능동적으로 살자.", "author"
 {"quote":"안주하기보다 스스로 선택한 방향을 향해 나아갈 때 삶이 더 가치있다.", "author":" - 서민준"},
 {"quote":"할 수 있는 게 거의 없는 것 같아도, 아무것도 하지 않은 것보다 더 큰 실수는 없다.", "author":" - 서민준"},
 {"quote":"I'm supposed to be here. I deserve it.", "author":" - Anonymous"}];
-const randomQuotes = quotes[Math.floor(Math.random()*quotes.length)];
 
+const randomQuotes = quotes[Math.floor(Math.random()*quotes.length)];
 quoteSpan.innerText = randomQuotes.quote;
 authorSpan.innerText = randomQuotes.author;
